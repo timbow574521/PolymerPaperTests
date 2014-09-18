@@ -39,7 +39,7 @@
                         </paper-menu-button>
                         
                         <!-- when loading this page here, I have to replace this menu with the correct one, same as I did before-->
-                        replaceMeNav
+                        <is-nav id="isNav" loggedin={{loggedin}}></is-nav>
                         <div id="title" class="bottom" horizontal layout center-justified center>Order Food Live</div>
                         <paper-icon-button icon="menu" id="paper_icon_button" on-click="{{ openleftside }}"></paper-icon-button>
                     </core-toolbar>
@@ -94,7 +94,7 @@
                 this.$.drawerPanel.togglePanel();
             },
             created: function (){                
-                Polymer.import(['replaceMeNavLink'], function () {
+                Polymer.import((['paper/nav/nav.html'], function () {
                     // called when our import is fully loaded
                     // including any assets like CSS.
                 });
