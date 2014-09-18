@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />-->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="description" content="Go to any church any where and participate in their services." />
+    <meta name="keywords" content="church,video,live,church service" />
+    <meta name="author" content="impactservice.biz" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="Cache-control" content="public, max-age=604800">
+    <title title="Order Food Live"> Order Food Live </title>
+     
+    <link id="Link1" rel="icon" href="../images/main/logo.ico" type="image/ico" />
+    <script src="./Polymer/bower_components/platform/platform.js"></script>
+    <!--<link rel="import" href="../Polymer/bower_components/polymer-ajax/polymer-ajax.html">-->
+    <link rel="import" href="../test/layout.html">
+    <script src="../public/components/js/lib/jquery.min.js"></script>
+    
+</head>
+    <body lang="en">
+        
+        <div id="pageInitLoading" style="width: 200px; height:100px; display:none; text-align: left; position: absolute; top: 50%; left: 50%;
+    margin-left:-100px; margin-top:-50px; font-size:30px;">
+            Order Food Live<br>
+            <img alt="Loading" src="../../../images/Main/loading1.gif" /> Loading...
+        </div>
+        <div id="changePage" style="position:absolute;background-color:blue; opacity:.5; display:none; width: 100%; height: 5000px;">
+        </div>
+        <div id="changePage2" style="width: 200px; height:100px; text-align: left; position: absolute; top: 50%; left: 50%; border-radius: 10px;
+        margin-left:-100px; margin-top:-50px; font-size:30px; background-color: rgb(146, 199, 154); display: none; padding: 20px;">
+            Order Food Live<br>
+            <img alt="Loading" src="../../../images/Main/loading1.gif" /> Loading...
+        </div>
+        <is-layout id="polymerLayout">
+        </is-layout>
+
+    </body>
+    <!--<script src="../../js/lib/zepto_jQuery_Extensions.js"></script>
+    <script src="../../layout/js/DomVars.js"></script>-->
+    <script>
+        $(document).ready(function () {
+            setTimeout(function () {
+                $("#pageInitLoading").html("Your browser is not supported or out-dated, please use an updated browser to view this website like <a href='https://www.google.com/intl/en/chrome/browser/'>chrome</a>.").width('300px');
+            }, 10000);
+        });
+    </script>
+
+    
+</html>

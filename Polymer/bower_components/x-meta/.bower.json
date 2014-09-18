@@ -1,0 +1,17 @@
+{
+  "name": "x-meta",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#master"
+  },
+  "homepage": "https://github.com/Polymer/x-meta",
+  "_release": "70d996fbde",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "70d996fbde569eaa02a8db9bef49a364454e1aa1"
+  },
+  "_source": "git://github.com/Polymer/x-meta.git",
+  "_target": "master",
+  "_originalSource": "Polymer/x-meta"
+}

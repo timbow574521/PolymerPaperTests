@@ -1,0 +1,17 @@
+{
+  "name": "chart-js",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#master"
+  },
+  "homepage": "https://github.com/Polymer/chart-js",
+  "_release": "5a8765e56f",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "5a8765e56fb024558b1fc0ea22da92329e8e94fa"
+  },
+  "_source": "git://github.com/Polymer/chart-js.git",
+  "_target": "master",
+  "_originalSource": "Polymer/chart-js"
+}
