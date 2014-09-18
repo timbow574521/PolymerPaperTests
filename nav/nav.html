@@ -1,0 +1,31 @@
+
+<link rel="import" href="../Polymer/bower_components/paper-menu-button/paper-menu-button.html">
+<link rel="import" href="../Polymer/bower_components/paper-item/paper-item.html">
+
+<polymer-element name="is-nav">
+    <template>
+        <paper-menu-button icon="more-vert">
+            <paper-item label="Register" center horizontal layout style="opacity: 1;">
+                <paper-ripple></paper-ripple>
+            </paper-item>
+            <paper-item label="Sign in" center horizontal layout style="opacity: 1;">
+                <paper-ripple></paper-ripple>
+            </paper-item>
+            <paper-item label="Menu Item 3" center horizontal layout style="opacity: 1;">
+                <paper-ripple></paper-ripple>
+            </paper-item>
+        </paper-menu-button>
+
+    </template>
+
+    <script>
+
+        Polymer('is-nav', {
+            ready: function () {
+                //alert("test");
+            }
+        });
+
+    </script>
+
+</polymer-element>
